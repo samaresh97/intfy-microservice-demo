@@ -1,0 +1,4 @@
+security:
+  oauth2:
+    resource:
+       user-info-uri: https://infygithub.ad.infosys.com/api/v3/user

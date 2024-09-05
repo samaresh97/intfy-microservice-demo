@@ -1,0 +1,19 @@
+security:
+      oauth2:
+        client:     
+            clientId: 6c177844bc8d2d35adb3
+            clientSecret: 8f07c11ae947a6d28ece2fcc7561089734b9be60
+            
+            access-token-uri: https://infygithub.ad.infosys.com/login/oauth/access_token
+           
+            user-authorization-uri: https://infygithub.ad.infosys.com/login/oauth/authorize
+            client-authentication-scheme: form
+        resource:
+          user-info-uri: https://infygithub.ad.infosys.com/api/v3/user
+          prefer-token-info: false
+      
+
+server:
+  port: 3333  
+
+  
